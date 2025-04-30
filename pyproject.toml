@@ -1,0 +1,13 @@
+[project]
+name = "buildmgr"
+version = "0.1.0"
+description = "A simple Python-based build system"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+authors = [{name="Noah Blair", email="noahjblair@outlook.com"}]
+
+[dependency-groups]
+dev = [
+    "twine>=6.1.0",
+]
